@@ -11,8 +11,11 @@ console.log(nombre, apellido);
 console.log(`Mi nombre es ${nombre} ${apellido}`);
 
 //métodos propiedades
+// mayúscula:
 console.log(nombre.toUpperCase());
+// minúscula
 console.log(apellido.toLowerCase());
+// Para saber cuantos caracteres tiene un string:
 console.log("El apellido tiene " + apellido.length + " Caracteres");
 
 //eliminar los espacios delante y detrás de un string
@@ -24,8 +27,10 @@ console.log(sinEspacio.join(""));
 
 //obtener una o varias letras
 console.log(apellido.at(0));
+// para obtener la última letra:
 console.log(apellido.at(-1));
 
+// para obtener determinados caracteres:
 console.log(apellido.substring(2, 6));
 
 // Tarea 1
@@ -33,6 +38,8 @@ console.log(apellido.substring(2, 6));
 // 1 - ingreso el apellido
 // 2 - calcular cantidad de caracteres
 // 3 - obtener la última letra del apellido
+
+
 
 // Tarea 2
 // ------------
